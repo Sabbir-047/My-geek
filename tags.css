@@ -1,0 +1,20 @@
+.container{
+    display: flex;  /* display flex er upor depend kore aro class usage*/
+    justify-content: space-around; /* row borabor majkhane dekhay */
+    align-items: center; /* vertical height borabor center dekhabe */
+    /*flex-direction: row-reverse; /* row ultano */
+    height: 500px;
+    border: 5px solid black;
+}
+.box{
+    padding: 20px;
+    width: 150px;
+    background-color: red;
+    height: 150px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
