@@ -18,7 +18,7 @@
     width: 120px;
     background-color: gray;
 }
-..logo-pic:hover{
+.logo-pic:hover{
     color: orange;
 }
 .item{
