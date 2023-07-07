@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: gray;
+    background-color: rgb(73, 82, 81);
     padding: 20px;
     color: white;
     list-style: none;
@@ -15,11 +15,12 @@
     display: flex;
 }
 .logo-pic{
-    width: 120px;
-    background-color: gray;
+    width: 150px;
+    height: 35px;
+
 }
 .logo-pic:hover{
-    color: orange;
+    cursor: pointer;
 }
 .item{
     margin-right: 10px;
@@ -30,19 +31,22 @@
     color: orange;
     transition: .35s ease-in-out;
 }
-.banner-img{
-    width: 300px;
-}
 .banner-container{
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    background-image: url(images/background.png), linear-gradient(38deg, #931111c7, #0039ff);
+    background-image: url("images/background.png"), linear-gradient(165deg, #000, #888);
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-img{
+    width: 300px;
 }
 .title{
     font-size: 55px;
@@ -56,6 +60,18 @@
 .btn{
     padding: 15px;
     background-color: orangered;
-    color: black;
-    border: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid orangered;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    transition: .45s ease-in-out;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
 }
