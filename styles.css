@@ -115,10 +115,10 @@
 }
 .box{
     width: 250px;
-    height: 425px;
+    height: 310px;
     box-shadow: 4px 4px 15px gray;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px 30px 10px 80px;
 }
 .box:hover{
@@ -128,8 +128,12 @@
 }
 .service-header{
     padding: 20px;
-    font-size: 55px;
+    font-size: 30px;
     text-align: center;
+}
+.box-header{
+    font-size: 30px;
+    padding: 10px 0px;
 }
 .service-img{
     width: 70px;
@@ -140,4 +144,15 @@
 .service-btn{
     background-color: rgb(56, 53, 53);
     margin-top: 10px;
+}
+.contact{
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    padding: 20px 80px;
+}
+.contact-box > p{
+    padding: 5px;
 }
